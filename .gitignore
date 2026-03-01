@@ -1,0 +1,13 @@
+# MkDocs documentation build artifacts
+site/
+
+# Material for MkDocs cache files (optional, but recommended)
+.cache
+
+# Python virtual environment (if you use one)
+venv/
+env/
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
