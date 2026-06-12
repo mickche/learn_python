@@ -2,10 +2,13 @@ site_name: Learn python with cat
 site_url: https://github.com/mickche/learn_python
 theme:
   name: material
-  logo: assets/logo.svg 
+  logo: assets/logo.svg
   favicon: assets/favicon.ico
   font:
-    text: PT Sans 
+    text: PT Sans
+
+  features:
+    - content.tabs.link
 
 markdown_extensions:
   - pymdownx.snippets:
@@ -15,6 +18,9 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
   - pymdownx.inlinehilite
   - admonition
   - pymdownx.details
