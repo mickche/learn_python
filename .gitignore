@@ -10,4 +10,4 @@ env/
 
 # Byte-compiled Python files
 __pycache__/
-*.py[cod]
+*.py[cod].DS_Store
