@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://github.com/mickche/learn_python/variables/">
+        <link rel="canonical" href="https://github.com/mickche/learn_python/start_variables/">
       
       
-        <link rel="prev" href="../start_variables/">
+        <link rel="prev" href="../math/">
       
+      
+        <link rel="next" href="../variables/">
       
       
         
@@ -23,7 +25,7 @@
     
     
       
-        <title>Робота зі змінними - Learn python with cat</title>
+        <title>Вступ до змінних - Learn python with cat</title>
       
     
     
@@ -99,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Робота зі змінними
+              Вступ до змінних
             
           </span>
         </div>
@@ -322,10 +324,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../start_variables/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -341,6 +352,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -350,37 +362,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Робота зі змінними
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../variables/" class="md-nav__link">
         
   
   
@@ -396,65 +381,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Змінна — це ім'я, яке ми даємо якомусь значенню, щоб комп'ютер його запам'ятав
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Типи даних
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Типи даних">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Повертаємось до змінних:
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -487,53 +413,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Змінна — це ім'я, яке ми даємо якомусь значенню, щоб комп'ютер його запам'ятав
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Типи даних
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Типи даних">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Повертаємось до змінних:
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -549,50 +428,8 @@
 
 
 
-<h1 id="_1">Змінні</h1>
-<h2 id="_2"><strong>Змінна — це ім'я, яке ми даємо якомусь значенню, щоб комп'ютер його запам'ятав</strong></h2>
-<p>Змінні можкуь мати як дані так і якісь вирази:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
-</span></code></pre></div>
-<p>В нашому коді ми створюєма змінну з ім'ям <mark><strong>a</strong></mark>, та привласнюємо значення <mark><strong>10</strong></mark></p>
-<h2 id="_3">Типи даних</h2>
-<p>Перед тим як ми продовжемо, хотів розповісти про <strong>основні</strong> типи даних:</p>
-<table>
-<thead>
-<tr>
-<th>name</th>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>int</td>
-<td>ціле число(1,2,3...876...)</td>
-</tr>
-<tr>
-<td>float</td>
-<td>дробове число(1.05,24.7...)</td>
-</tr>
-<tr>
-<td>str</td>
-<td>текст('hello',"null"...)</td>
-</tr>
-<tr>
-<td>bool</td>
-<td>істина чи ні(True,False)</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>В Python текст можна писпти як в <mark>''</mark> так і в <mark>""</mark></p>
-<p>В Python True та False пишуться з <mark>великої літери</mark></p>
-</blockquote>
-<h3 id="_4">Повертаємось до змінних:</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>a = 1+4
-</span></code></pre></div>
-<p>Як я вже казав в змінних можна записувати якісь дії.
-Так от, коли ми надрукуємо <strong>a</strong>, то буде 5(Python може вирішувати приклади).</p>
-<h1 id="file-in-development"><mark><strong>FILE IN DEVELOPMENT</strong></mark></h1>
+<h1 id="_1">Вступ до Змінних</h1>
+<p>Після того як ми написали вашу <mark>першу</mark> програму, я хотів би розповісти про <mark>змінні</mark></p>
 
 
 

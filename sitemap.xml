@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/mickche/learn_python/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <loc>https://github.com/mickche/learn_python/first/</loc>
+         <lastmod>2026-07-02</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mickche/learn_python/json_vs_jsonl/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <loc>https://github.com/mickche/learn_python/hello/</loc>
+         <lastmod>2026-07-02</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mickche/learn_python/list/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <loc>https://github.com/mickche/learn_python/math/</loc>
+         <lastmod>2026-07-02</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/mickche/learn_python/start_variables/</loc>
+         <lastmod>2026-07-02</lastmod>
     </url>
     <url>
          <loc>https://github.com/mickche/learn_python/variables/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-07-02</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mickche/learn_python/OOP/01/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <loc>https://github.com/mickche/learn_python/drafts/json_vs_jsonl/</loc>
+         <lastmod>2026-07-02</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/mickche/learn_python/drafts/list/</loc>
+         <lastmod>2026-07-02</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/mickche/learn_python/drafts/OOP/01/</loc>
+         <lastmod>2026-07-02</lastmod>
     </url>
 </urlset>
