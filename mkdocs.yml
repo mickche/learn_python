@@ -10,10 +10,18 @@ theme:
   features:
     - content.tabs.link
 
+nav:
+  - Головна: hello.md
+  - Перша программа: first.md
+  - Змінні та математичні дії:
+      - Математичні дії в Python: math.md
+      - Вступ до змінних: start_variables.md
+      - Робота зі змінними: variables.md
+
 markdown_extensions:
   - pymdownx.snippets:
       base_path:
-        - 'python_file'
+        - "python_file"
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
