@@ -11,3 +11,5 @@ env/
 # Byte-compiled Python files
 __pycache__/
 *.py[cod].DS_Store
+
+.vscode
