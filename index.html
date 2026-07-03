@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://github.com/mickche/learn_python/drafts/list/">
+        <link rel="canonical" href="https://github.com/mickche/learn_python/">
       
       
       
@@ -16,19 +16,19 @@
         
       
       
-      <link rel="icon" href="../../assets/favicon.ico">
+      <link rel="icon" href="assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>1. Що таке список? - Learn python with cat</title>
+        <title>Learn python with cat</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,7 +47,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1" class="md-skip">
+        <a href="#hello" class="md-skip">
           Skip to content
         </a>
       
@@ -88,9 +88,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Learn python with cat" class="md-header__button md-logo" aria-label="Learn python with cat" data-md-component="logo">
+    <a href="." title="Learn python with cat" class="md-header__button md-logo" aria-label="Learn python with cat" data-md-component="logo">
       
-  <img src="../../assets/logo.svg" alt="logo">
+  <img src="assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. Що таке список?
+              HELLO
             
           </span>
         </div>
@@ -211,9 +211,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Learn python with cat" class="md-nav__button md-logo" aria-label="Learn python with cat" data-md-component="logo">
+    <a href="." title="Learn python with cat" class="md-nav__button md-logo" aria-label="Learn python with cat" data-md-component="logo">
       
-  <img src="../../assets/logo.svg" alt="logo">
+  <img src="assets/logo.svg" alt="logo">
 
     </a>
     Learn python with cat
@@ -228,7 +228,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hello/" class="md-nav__link">
+      <a href="hello/" class="md-nav__link">
         
   
   
@@ -255,7 +255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../first/" class="md-nav__link">
+      <a href="first/" class="md-nav__link">
         
   
   
@@ -329,7 +329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../math/" class="md-nav__link">
+      <a href="math/" class="md-nav__link">
         
   
   
@@ -357,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../start_variables/" class="md-nav__link">
+      <a href="start_variables/" class="md-nav__link">
         
   
   
@@ -385,7 +385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../variables/" class="md-nav__link">
+      <a href="variables/" class="md-nav__link">
         
   
   
@@ -448,69 +448,7 @@
 
 
 
-<h1 id="1">1. Що таке список?</h1>
-<p><strong>Список</strong> — це впорядкована колекція елементів. Куди можна покласти що завгодно: числа, текст або навіть інші списки.</p>
-<ul>
-<li>
-<p>Список створюється за допомогою квадратних дужок [].</p>
-</li>
-<li>
-<p>Елементи всередині розділяються комами.</p>
-</li>
-</ul>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>    <span class="c1"># Порожній список</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">empty_list</span> <span class="o">=</span> <span class="p">[]</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="c1"># Список чисел</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span>
-</span></code></pre></div>
-<details class="tip">
-<summary>Tip</summary>
-<p>Щоб створити порожній список, можна використати <mark>list()</mark></p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">my_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
-</span></code></pre></div>
-</details>
-<h1 id="2">2. Індекси</h1>
-<p>Кожен елемент у списку має свій "номер" тобто індекс.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;яблуко&quot;</span><span class="p">,</span> <span class="s2">&quot;банан&quot;</span><span class="p">,</span> <span class="s2">&quot;апельсин&quot;</span><span class="p">]</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1">#            0         1         2</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># Отримуємо елемент за індексом:</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># яблуко</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># апельсин</span>
-</span></code></pre></div>
-<details class="tip">
-<summary>Tip</summary>
-<p>В <mark>Python</mark> індексація починається з 0</p>
-</details>
-<h2 id="_1">Зворотна нумерація</h2>
-<p>Якщо потрібно взяти елементи з кінця списку, використовують мінусові індекси. Останній елемент — <mark>завжди [-1]</mark></p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># апельсин</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># банан</span>
-</span></code></pre></div>
-<h1 id="3">3. Зміна елементів списку</h1>
-<p>Списки є змінними. Це означає, що ви можете легко замінити будь-який елемент.</p>
-<h1 id="4-c">4. Основні методи cписків</h1>
-<ul>
-<li>append()</li>
-<li>remove()</li>
-<li>index()</li>
-</ul>
-<h3 id="append">Метод append()</h3>
-<p>Метод <mark>append()</mark> додає нові елементи до списку:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">my_list</span> <span class="o">=</span> <span class="p">[]</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">my_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;apple&#39;</span><span class="p">)</span>
-</span></code></pre></div>
-<h3 id="remove">Метод remove()</h3>
-<p>Метод <mark>remove()</mark> видаляє елементи зі списку:
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;apple&#39;</span><span class="p">,</span><span class="s1">&#39;golden_apple&#39;</span><span class="p">,</span> <span class="s1">&#39;gold&#39;</span><span class="p">]</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">my_list</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;gold&#39;</span><span class="p">)</span>
-</span></code></pre></div></p>
-<h3 id="index">Метод index()</h3>
-<p>Метод <mark>inde()</mark> повертає <u>індекс</u> цього елемента(якщо він є)
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;apple&#39;</span><span class="p">,</span><span class="s1">&#39;golden_apple&#39;</span><span class="p">]</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">my_list</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;apple&#39;</span><span class="p">)</span> <span class="c1"># буде 0 </span>
-</span></code></pre></div></p>
+<h1 id="hello">HELLO</h1>
 
 
 
@@ -580,10 +518,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tabs.link", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.tabs.link", "navigation.footer", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
