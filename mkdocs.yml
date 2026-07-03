@@ -9,6 +9,30 @@ theme:
 
   features:
     - content.tabs.link
+    - navigation.footer
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Переключити на темну тему
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Переключити на світлу тему
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mickche
 
 nav:
   - Головна: hello.md
