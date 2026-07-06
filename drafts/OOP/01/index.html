@@ -47,6 +47,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -262,7 +264,7 @@
   <span class="md-ellipsis">
     
   
-    Перша программа
+    Перша програма
   
 
     
@@ -337,34 +339,6 @@
     
   
     Математичні дії в Python
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../start_variables/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Вступ до змінних
   
 
     
@@ -486,33 +460,32 @@
 <p>Давайте розглянемо приклад:</p>
 <details class="note" open="open">
 <summary>main.py</summary>
-<pre class="mermaid"><code>
-graph TD
-
-    A["**Предмет**&lt;br/&gt;(Має масу та об'єм)"] 
-
-    A --&gt; B["**Живі**&lt;br/&gt;(Дихають, ростуть, живляться)"]
-    A --&gt; C["**Неживі**&lt;br/&gt;(Не дихають, не ростуть)"]
-
-    B --&gt; D["**Тварини**&lt;br/&gt;(Активно рухаються)"]
-    B --&gt; E["**Рослини**&lt;br/&gt;(Виробляють кисень)"]
-
-    D --&gt; D1["**Кошеня**&lt;br/&gt;(Муркоче, грається)"]
-    E --&gt; E1["**Квітка**&lt;br/&gt;(Цвіте, пахне)"]
-
-    C --&gt; C1["**Стіл**&lt;br/&gt;(Міцний, дерев'яний)"]</code></pre>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph TD
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    A[&quot;**Предмет**&lt;br/&gt;(Має масу та об&#39;єм)&quot;] 
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    A --&gt; B[&quot;**Живі**&lt;br/&gt;(Дихають, ростуть, живляться)&quot;]
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    A --&gt; C[&quot;**Неживі**&lt;br/&gt;(Не дихають, не ростуть)&quot;]
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    B --&gt; D[&quot;**Тварини**&lt;br/&gt;(Активно рухаються)&quot;]
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    B --&gt; E[&quot;**Рослини**&lt;br/&gt;(Виробляють кисень)&quot;]
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    D --&gt; D1[&quot;**Кошеня**&lt;br/&gt;(Муркоче, грається)&quot;]
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    E --&gt; E1[&quot;**Квітка**&lt;br/&gt;(Цвіте, пахне)&quot;]
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    C --&gt; C1[&quot;**Стіл**&lt;br/&gt;(Міцний, дерев&#39;яний)&quot;]
+</span></code></pre></div>
 </details>
-<p>В нашому випадку всі блоки це <mark>класи</mark> та кожен клас має <ins>ім'я</ins>.
+<p>В нашому випадку всі блоки це <mark>класи</mark> та кожен клас має ^^ім'я^^.
 Також <mark>класи</mark> мають різні властивості. Та всі класи які походять від інших класів(тобто мають схожі властивосі) беруть від своїю батьків властивості та мають свої.</p>
 <p>Щоб створити свій клас, треба:</p>
 <p>1.Використовувати ключове слово <mark>class</mark></p>
 <p>2.Створити ім'я для класу</p>
 <p>3.Додавати функції і таке інше</p>
 <p>Наведу простий приклад:</p>
-<div class="language-py highlight"><span class="filename">oop.py</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Subject</span><span class="p">():</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="k">pass</span>
+<div class="language-py highlight"><span class="filename">oop.py</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">--</span><span class="mi">8</span><span class="o">&lt;--</span> <span class="s2">&quot;oop.py:class1&quot;</span>
 </span></code></pre></div>
-<p>Як ми бачимо використовується ключове слово <mark><ins>class</ins></mark></p>
+<p>Як ми бачимо використовується ключове слово <mark>^^class^^</mark></p>
 <details class="tip" open="open">
 <summary>Tip</summary>
 <p><mark>Класи завжди пишуться з великої літери</mark></p>
@@ -521,14 +494,13 @@ graph TD
 <p>Тому пам'ятайте:</p>
 <details class="failure" open="open">
 <summary>Failure</summary>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Subject</span><span class="p">():</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">pass</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Subject</span><span class="p">():</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">pass</span>
 </span></code></pre></div>
 </details>
 <details class="success" open="open">
 <summary>Success</summary>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Subject</span><span class="p">():</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="k">pass</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">--</span><span class="mi">8</span><span class="o">&lt;--</span> <span class="s2">&quot;oop.py:class1&quot;</span>
 </span></code></pre></div>
 </details>
 <h2 id="_3">Ініціалізація та екзепляр класса</h2>
@@ -606,6 +578,12 @@ graph TD
     
     
       <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../../javascripts/tablesort.js"></script>
+      
+        <script src="../../../javascripts/quiz.js"></script>
       
     
   </body>

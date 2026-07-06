@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://github.com/mickche/learn_python/variables/">
       
       
-        <link rel="prev" href="../start_variables/">
+        <link rel="prev" href="../math/">
       
       
       
@@ -48,6 +48,8 @@
         <style>:root{--md-text-font:"PT Sans";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -264,7 +266,7 @@
   <span class="md-ellipsis">
     
   
-    Перша программа
+    Перша програма
   
 
     
@@ -358,34 +360,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../start_variables/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Вступ до змінних
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -457,10 +431,27 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Змінна — це ім&#39;я, яке ми даємо якомусь значенню, щоб комп&#39;ютер його запам&#39;ятав">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Правилання написання змінних
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         Типи даних
@@ -472,10 +463,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Повертаємось до змінних:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вивід тексту зі змінними
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🍎 Задача: Магазин фруктів
       
     </span>
   </a>
@@ -538,10 +551,27 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Змінна — це ім&#39;я, яке ми даємо якомусь значенню, щоб комп&#39;ютер його запам&#39;ятав">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Правилання написання змінних
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         Типи даних
@@ -553,10 +583,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Повертаємось до змінних:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вивід тексту зі змінними
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🍎 Задача: Магазин фруктів
       
     </span>
   </a>
@@ -591,7 +643,16 @@
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
 </span></code></pre></div>
 <p>В нашому коді ми створюєма змінну з ім'ям <mark><strong>a</strong></mark>, та привласнюємо значення <mark><strong>10</strong></mark></p>
-<h2 id="_3">Типи даних</h2>
+<h3 id="_3">Правилання написання змінних</h3>
+<p>Якщо не дотримуватися цих правил то будуть помилки від python:</p>
+<p>1.Змінні не можуть починатись з <em>цифр</em></p>
+<p>2.Не можуть містити пробіли</p>
+<p>3.Та не можуть містити символи(окрім <code>_</code>)</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Змінні можуть мати <strong>будь яку</strong> назву, крім тих які не підтримуються правилами</p>
+</div>
+<h2 id="_4">Типи даних</h2>
 <p>Перед тим як ми продовжемо, хотів розповісти про <strong>основні</strong> типи даних:</p>
 <table>
 <thead>
@@ -620,15 +681,65 @@
 </tbody>
 </table>
 <blockquote>
-<p>В Python текст можна писпти як в <mark>''</mark> так і в <mark>""</mark></p>
-<p>В Python True та False пишуться з <mark>великої літери</mark></p>
+<p>В Python текст можна писати як в <code>''</code> так і в <code>""</code></p>
+<p>В Python True та False пишуться з <strong>великої літери</strong></p>
 </blockquote>
-<h3 id="_4">Повертаємось до змінних:</h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>a = 1+4
+<h3 id="_5">Повертаємось до змінних:</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="o">+</span><span class="mi">4</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Як я вже казав в змінних можна записувати якісь дії.
-Так от, коли ми надрукуємо <strong>a</strong>, то буде 5(Python може вирішувати приклади).</p>
-<h1 id="file-in-development"><mark><strong>FILE IN DEVELOPMENT</strong></mark></h1>
+Так от, коли ми надрукуємо <strong>a</strong>, то буде 5.</p>
+<h3 id="_6">Вивід тексту зі змінними</h3>
+<p>Для того щоб вивести привітання комусь, ми використовуємо ім'я та вік</p>
+<p>Але якщо ми зробимо так:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>    <span class="n">age</span> <span class="o">=</span> <span class="mi">14</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Grey&#39;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello name, you are age, right?&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>То це <strong>не працюватиме</strong></p>
+<p>Правильно так:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="s1">&#39;you are,&#39;</span><span class="p">,</span><span class="n">age</span><span class="p">,</span><span class="s1">&#39;right?&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>Пізніше буде більш <em>красивий</em> варіант</p>
+<p>Тепер, на ваших знаннях напишіть задачку:</p>
+<h3 id="_7">🍎 Задача: Магазин фруктів</h3>
+<p>Умова задачі:</p>
+<p>Уявіть, що ви прийшли в магазин купити фрукти.</p>
+<p>1.Ви купуєте 5 яблук та 3 банани.</p>
+<p>2.Одне яблуко коштує 12 гривень, а один банан — 15 гривень.</p>
+<p>Завдання:</p>
+<div class="language-text highlight"><pre><span></span><code>1.Вивести користувачу:
+    Вітааю :3
+
+    Банани: ...
+
+    Яблука: ...
+
+    Сума: ...
+
+
+2. Завершити вивід
+
+!!! tip
+
+    Щоб зробити перехід на нову стрічку: `\n`
+</code></pre></div>
+<div class="admonition correct">
+<p class="admonition-title">Correct</p>
+<p>Правильник код:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">all_bananas</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">15</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">all_apples</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">12</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">summa</span> <span class="o">=</span> <span class="n">all_bananas</span> <span class="o">+</span> <span class="n">all_apples</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Вітааю :3</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Банани:&#39;</span><span class="p">,</span><span class="n">all_bananas</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Яблука:&#39;</span><span class="p">,</span><span class="n">all_apples</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Сума:&#39;</span><span class="p">,</span><span class="n">summa</span><span class="p">)</span>
+</span></code></pre></div>
+</div>
 
 
 
@@ -660,7 +771,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../start_variables/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Вступ до змінних">
+          <a href="../math/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Математичні дії в Python">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -670,7 +781,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Вступ до змінних
+                Математичні дії в Python
               </div>
             </div>
           </a>
@@ -724,6 +835,12 @@
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+        <script src="../javascripts/quiz.js"></script>
       
     
   </body>
