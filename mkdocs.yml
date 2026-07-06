@@ -1,5 +1,6 @@
 site_name: Learn python with cat
 site_url: https://github.com/mickche/learn_python
+
 theme:
   name: material
   logo: assets/logo.svg
@@ -29,41 +30,39 @@ theme:
         icon: material/brightness-4
         name: Переключити на світлу тему
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/mickche
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+  - javascripts/quiz.js
 
 nav:
   - Головна: hello.md
-  - Перша программа: first.md
+  - Перша програма: first.md
   - Змінні та математичні дії:
       - Математичні дії в Python: math.md
-      - Вступ до змінних: start_variables.md
       - Робота зі змінними: variables.md
 
 markdown_extensions:
-  - pymdownx.snippets:
-      base_path:
-        - "python_file"
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - admonition
-  - pymdownx.details
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
 
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
+
+  - pymdownx.inlinehilite
+
+  - admonition
+
+  - pymdownx.details
+
+  - pymdownx.mark
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mickche

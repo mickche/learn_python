@@ -129,14 +129,23 @@ print(11//3)
 
 ### Завдання для вас
 
-Напишіть приклад який має в собі:
+<!-- <div class="quiz-container">
 
-1.Додавання
+Який символ треба для цілочисельного ділення
 
-2.Ділення
+<button onclick="alert('❌ Неправильно')">%</button>
 
-3.Віднімання та піднесення до ступіню
+<button onclick="alert('✅ Правильно!')">//</button>
 
-!!! tip
+<button onclick="alert('❌ Неправильно')">/</button>
 
-    Щоб подивитись результат, використовуйте `print()`
+</div> -->
+
+<div class="quiz">
+    <h2>
+        Яка перша літера англійського алфівіту?  
+    </h2>
+    <button onclick="this.classList.add('right')">1) А</button>
+    <button onclick="this.classList.add('wrong')">2) B</button>
+    <button onclick="this.classList.add('wrong')">3) C</button>
+    </div>
