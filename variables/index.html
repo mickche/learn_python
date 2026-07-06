@@ -488,6 +488,17 @@
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
+        Додавання змінних
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         🍎 Задача: Магазин фруктів
       
     </span>
@@ -608,6 +619,17 @@
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
+        Додавання змінних
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         🍎 Задача: Магазин фруктів
       
     </span>
@@ -705,39 +727,46 @@
 <div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="s1">&#39;you are,&#39;</span><span class="p">,</span><span class="n">age</span><span class="p">,</span><span class="s1">&#39;right?&#39;</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Пізніше буде більш <em>красивий</em> варіант</p>
+<h3 id="_7">Додавання змінних</h3>
+<p>Як додавати числа, ми вже знаємо, а що робити якщо нвм треба додати числа які зберігаються в змінних?</p>
+<p>Все дуже просто:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">summa</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</span></code></pre></div>
+<p>Якщо вивести <code>summa</code>, то буден <strong>15</strong></p>
 <p>Тепер, на ваших знаннях напишіть задачку:</p>
-<h3 id="_7">🍎 Задача: Магазин фруктів</h3>
+<h3 id="_8">🍎 Задача: Магазин фруктів</h3>
 <p>Умова задачі:</p>
 <p>Уявіть, що ви прийшли в магазин купити фрукти.</p>
 <p>1.Ви купуєте 5 яблук та 3 банани.</p>
 <p>2.Одне яблуко коштує 12 гривень, а один банан — 15 гривень.</p>
 <p>Завдання:</p>
-<div class="language-text highlight"><pre><span></span><code>1.Вивести користувачу:
-    Вітааю :3
+<p>1.Вивести користувачу:</p>
+<div class="language-text highlight"><pre><span></span><code>Вітаю :3
 
-    Банани: ...
+Банани: ...
 
-    Яблука: ...
+Яблука: ...
 
-    Сума: ...
-
-
-2. Завершити вивід
-
-!!! tip
-
-    Щоб зробити перехід на нову стрічку: `\n`
+Сума: ...
 </code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Щоб зробити перехід на нову стрічку: <code>\n</code></p>
+</div>
 <div class="admonition correct">
 <p class="admonition-title">Correct</p>
 <p>Правильник код:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">all_bananas</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">15</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">all_apples</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">12</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">summa</span> <span class="o">=</span> <span class="n">all_bananas</span> <span class="o">+</span> <span class="n">all_apples</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Вітааю :3</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Банани:&#39;</span><span class="p">,</span><span class="n">all_bananas</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Яблука:&#39;</span><span class="p">,</span><span class="n">all_apples</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Сума:&#39;</span><span class="p">,</span><span class="n">summa</span><span class="p">)</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">all_bananas</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">15</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">all_apples</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">12</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">summa</span> <span class="o">=</span> <span class="n">all_bananas</span> <span class="o">+</span> <span class="n">all_apples</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Вітааю :3</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Банани:&#39;</span><span class="p">,</span><span class="n">all_bananas</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Яблука:&#39;</span><span class="p">,</span><span class="n">all_apples</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;Сума:&#39;</span><span class="p">,</span><span class="n">summa</span><span class="p">)</span>
 </span></code></pre></div>
 </div>
 

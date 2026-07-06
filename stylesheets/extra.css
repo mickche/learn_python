@@ -1,6 +1,36 @@
-.wrong {
-  background-color: crimson;
+.quiz button {
+  padding: 12px 28px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #3f51b5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
 }
+
+.quiz button:not([disabled]):hover {
+  background-color: #303f9f;
+}
+
 .right {
-  background-color: aquamarine;
+  background-color: #00900c !important;
+  color: #ffffff !important;
+}
+
+.wrong {
+  background-color: crimson !important;
+  color: #ffffff !important;
+}
+
+.quiz button:disabled {
+  cursor: not-allowed;
+}
+
+.quiz button:disabled:not(.right):not(.wrong) {
+  background-color: #3f51b5;
+  opacity: 0.4;
+  color: #ffffff;
 }
