@@ -149,3 +149,6 @@ print(11//3)
     <button onclick="this.classList.add('wrong')"> /</button>
     <button onclick="this.classList.add('right')"> //</button>
     </div>
+<div>
+    <button onclick="location.reload();">⟲</button>
+</div>

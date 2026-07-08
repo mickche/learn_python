@@ -143,3 +143,16 @@ summa = a + b
     print('Вітааю :3\n','Банани:',all_bananas,'\n','Яблука:',all_apples,'\n','Сума:',summa)
 
     ```
+
+
+<div class="quiz">
+    <h2>
+        Яка змінна написанна неправильно?
+    </h2>
+    <button onclick="this.classList.add('right')"> 2a</button>
+    <button onclick="this.classList.add('wrong')">age_and_name</button>
+    <button onclick="this.classList.add('wrong')">c</button>
+    </div>
+<div>
+    <button onclick="location.reload();">⟲</button>
+</div>

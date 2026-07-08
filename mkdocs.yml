@@ -46,6 +46,10 @@ nav:
       - Математичні дії в Python: math.md
       - Робота зі змінними: variables.md
 
+  - Списки: list.md
+
+  - Цикли: for.md
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
