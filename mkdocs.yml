@@ -50,8 +50,10 @@ nav:
 
   - Цикли: for.md
 
+  - Функції: def.md
+
 markdown_extensions:
-  - pymdownx.highlight:
+  - py3ownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
