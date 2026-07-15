@@ -1,15 +1,22 @@
-# MkDocs documentation build artifacts
+# MkDocs build output
 site/
 
-# Material for MkDocs cache files (optional, but recommended)
-.cache
+# Material for MkDocs internal build cache
+.cache/
 
-# Python virtual environment (if you use one)
+# Python virtual environment (if using local environment)
 venv/
+.venv/
 env/
 
-# Byte-compiled Python files
+# Python cache files
 __pycache__/
-*.py[cod].DS_Store
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
 
 .vscode
