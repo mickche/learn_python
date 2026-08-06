@@ -1,7 +1,7 @@
 import inspect
 
 # Get everything (methods, properties, attributes)
-all_members = inspect.getmembers(str)
+all_members = inspect.getmembers(list)
 
 # print(all_members)
 

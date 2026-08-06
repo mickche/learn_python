@@ -20,7 +20,7 @@ a = 10
 
 3.Та не можуть містити символи(окрім `_`)
 
-!!! tip
+??? tip
 
     Змінні можуть мати **будь яку** назву, крім тих які не підтримуються правилами
 
@@ -59,11 +59,11 @@ print(a)
 
 ```python
 
-    age = 14
+age = 14
 
-    name = 'Grey'
+name = 'Grey'
 
-    print('Hello name, you are age, right?')
+print('Hello name, you are age, right?')
 
 ```
 
@@ -73,7 +73,7 @@ print(a)
 
 ```python
 
-    print('Hello',name,'you are,',age,'right?')
+print('Hello',name,'you are,',age,'right?')
 
 ```
 
@@ -124,11 +124,11 @@ summa = a + b
     Сума: ...
 
 
-!!! tip
+??? tip
 
     Щоб зробити перехід на нову стрічку: `\n`
 
-!!! correct
+??? correct
 
     Правильник код:
 

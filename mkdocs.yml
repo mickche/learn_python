@@ -7,11 +7,15 @@ theme:
   favicon: assets/favicon.ico
   font:
     text: PT Sans
+  icon:
+    annotation: material/arrow-right-circle
 
   features:
     - content.tabs.link
     - navigation.footer
     - content.code.copy
+    - content.code.annotate
+
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -52,22 +56,19 @@ nav:
 
   - Функції: def.md
 
+  - Словники: dict.md
+
 markdown_extensions:
-  - py3ownx.highlight:
+  - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
 
-  - pymdownx.superfences
-
   - pymdownx.inlinehilite
-
-  - admonition
-
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.details
-
   - pymdownx.mark
-
 extra:
   social:
     - icon: fontawesome/brands/github
