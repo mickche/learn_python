@@ -587,6 +587,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Більш правильне отримання значення за ключем
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -596,6 +607,33 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../falture_and_success.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Помилки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -671,6 +709,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Більш правильне отримання значення за ключем
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -719,20 +768,30 @@
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">)</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">#  {&#39;name&#39;: &#39;Barsik&#39;, &#39;age&#39;: 5 &#39;color&#39;: &quot;orange&quot;, type: &#39;cat&#39;}</span>
 </span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Якщо ми хочемо звернутися до елемента та ми знаємо назву ключа -&gt; <code>name_dict['name_key']</code></p>
+</div>
 <h3 id="_4">Видалення елементів зі словника</h3>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">#1</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">del</span> <span class="n">my_dict</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
 </span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
 </span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">)</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c1"># { &#39;age&#39;: 5 &#39;color&#39;: &quot;orange&quot;, type: &#39;cat&#39;}</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c1"># { &#39;age&#39;: 5,&#39;color&#39;: &quot;orange&quot;, type: &#39;cat&#39;}</span>
 </span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
 </span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="c1">#2</span>
 </span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="n">my_dict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
 </span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">)</span>
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="c1"># { &#39;age&#39;: 5 &#39;color&#39;: &quot;orange&quot;, type: &#39;cat&#39;}</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="c1"># { &#39;age&#39;: 5,&#39;color&#39;: &quot;orange&quot;, type: &#39;cat&#39;}</span>
 </span></code></pre></div>
-<h1 id="file-in-development"><mark>FILE IN DEVELOPMENT</mark></h1>
+<h3 id="_5">Більш правильне отримання значення за ключем</h3>
+<p>Раніще я казав як можна взяти елемент за ключем але це трішки не стабільно, краще так:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s2">&quot;orange&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">:</span> <span class="s1">&#39;cat&#39;</span><span class="p">}</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">,</span><span class="s1">&#39;no_age&#39;</span><span class="p">))</span>
+</span></code></pre></div>
+<p>Різниця в тому що коли ми використовуємо <code>name_dict['name_key']</code> може вивести помилку бо не буде такого ключа, а <code>.get()</code>(від англ. взяти) теж отримує значення за ключем але в нього є 2 параметр якмй дозволяє замість помилки повернути текст чи щось інше</p>
 
 
 
