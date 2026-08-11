@@ -57,6 +57,7 @@ nav:
   - Функції: def.md
 
   - Словники: dict.md
+  - Помилки: falture_and_success.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -69,6 +70,10 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.mark
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra:
   social:
     - icon: fontawesome/brands/github

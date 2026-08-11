@@ -45,8 +45,14 @@ my_dict.update('name':'Barsik')
 print(my_dict)
 #  {'name': 'Barsik', 'age': 5 'color': "orange", type: 'cat'}
 
-
 ```
+
+
+!!! tip
+
+    Якщо ми хочемо звернутися до елемента та ми знаємо назву ключа -> `name_dict['name_key']`
+
+
 
 ### Видалення елементів зі словника
 
@@ -57,14 +63,26 @@ print(my_dict)
 del my_dict['name']
 
 print(my_dict)
-# { 'age': 5 'color': "orange", type: 'cat'}
+# { 'age': 5,'color': "orange", type: 'cat'}
 
 #2
 my_dict.pop('name')
 print(my_dict)
-# { 'age': 5 'color': "orange", type: 'cat'}
+# { 'age': 5,'color': "orange", type: 'cat'}
+```
+
+### Більш правильне отримання значення за ключем
+
+Раніще я казав як можна взяти елемент за ключем але це трішки не стабільно, краще так:
+
+``` python
+
+my_dict = { 'age': 5,'color': "orange", type: 'cat'}
+
+print(my_dict.get('age','no_age'))
 
 ```
 
+Різниця в тому що коли ми використовуємо `name_dict['name_key']` може вивести помилку бо не буде такого ключа, а `.get()`(від англ. взяти) теж отримує значення за ключем але в нього є 2 параметр якмй дозволяє замість помилки повернути текст чи щось інше
 
-# ==FILE IN DEVELOPMENT==
+
