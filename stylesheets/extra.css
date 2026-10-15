@@ -1,27 +1,29 @@
+/* Стилі для кнопок вікторини */
 .quiz button {
   padding: 12px 28px;
   margin: 5px;
   font-size: 16px;
   font-weight: bold;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: #3f51b5;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.2s ease, opacity 0.2s ease;
+  transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.1s ease;
 }
 
 .quiz button:not([disabled]):hover {
   background-color: #303f9f;
+  transform: translateY(-1px);
 }
 
 .right {
-  background-color: #00900c !important;
+  background-color: #2e7d32 !important;
   color: #ffffff !important;
 }
 
 .wrong {
-  background-color: crimson !important;
+  background-color: #c62828 !important;
   color: #ffffff !important;
 }
 
@@ -33,4 +35,13 @@
   background-color: #3f51b5;
   opacity: 0.4;
   color: #ffffff;
+}
+
+.md-typeset pre > code {
+  border-radius: 8px;
+}
+
+.md-typeset .admonition {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
