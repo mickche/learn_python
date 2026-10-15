@@ -5,17 +5,19 @@ theme:
   name: material
   logo: assets/logo.svg
   favicon: assets/favicon.ico
+  language: uk
   font:
     text: PT Sans
   icon:
     annotation: material/arrow-right-circle
-
   features:
     - content.tabs.link
-    - navigation.footer
     - content.code.copy
     - content.code.annotate
-
+    - navigation.footer
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -25,7 +27,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Переключити на темну тему
-
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
@@ -40,22 +41,17 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
-
   - javascripts/quiz.js
 
 nav:
   - Головна: hello.md
   - Перша програма: first.md
   - Змінні та математичні дії:
-      - Математичні дії в Python: math.md
-      - Робота зі змінними: variables.md
-
+    - Математичні дії в Python: math.md
+    - Робота зі змінними: variables.md
   - Списки: list.md
-
   - Цикли: for.md
-
   - Функції: def.md
-
   - Словники: dict.md
   - Помилки: falture_and_success.md
 
@@ -64,16 +60,13 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.mark
-
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+
 extra:
   social:
     - icon: fontawesome/brands/github
